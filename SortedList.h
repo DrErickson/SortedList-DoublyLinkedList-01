@@ -9,7 +9,10 @@ class SortedList
 public:
   SortedList();
   // Constructor
-  
+
+  ~SortedList();
+  // Deconstructor
+
   void MakeEmpty();
   // Function: Returns the list to the empty state.
   // Post:  List is empty.
@@ -64,6 +67,7 @@ private:
 
   int length;
   NodeT* head;
+  NodeT* currentPos;
 };
 
 #include "SortedList.cpp"
