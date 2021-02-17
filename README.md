@@ -1,2 +1,2 @@
-# SortedList Array
-This contains the starter code for an array based implementation of a sorted list.
+# SortedList Doubly Linked List
+This contains the starter code for a sorted list.
